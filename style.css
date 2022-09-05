@@ -13,6 +13,7 @@ main {
   width: 100vw;
   height: 100vh;
   display: flex;
+  position: absolute;
   justify-content: center;
   align-items: center;
 }
@@ -66,6 +67,7 @@ img {
 
 article {
   padding: 40px 100px 40px 60px;
+  display: block;
 }
 
 article p {
@@ -79,7 +81,7 @@ article p {
 .stats {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+
   padding-top: 70px;
 }
 
@@ -87,10 +89,12 @@ article p {
   font-size: 20px;
   color: hsl(0, 0%, 100%);
   font-family: "Inter", sans-serif;
+  font-weight: 700;
 }
 
 .stats p {
   padding-right: 10px;
   color: hsla(0, 0%, 100%, 0.6);
   font-size: 11px;
+  padding-right: 80px;
 }
